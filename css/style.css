@@ -1,0 +1,30 @@
+.header {
+    background-color: red;
+    height: 60px;
+    width: 1440px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.recept {
+    display: inline-block;
+    margin: 52px 70px;
+    width: 334px;
+    text-align: left;
+    
+    border: 5px solid #E5E000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 20px;
+}
+.footer {
+    background-color: red;
+    height: 60px;
+    width: 1440px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+
+}
