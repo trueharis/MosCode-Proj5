@@ -1,12 +1,13 @@
 .header {
     background-color: red;
     height: 60px;
-    width: 1440px;
+    width: 100%;
     color: white;
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
+    padding-top: 30px;
     padding-left: 20px;
 }
+
 .recept {
     display: inline-block;
     margin: 52px 70px;
@@ -18,13 +19,13 @@
     border-radius: 30px;
     padding: 20px;
 }
+
 .footer {
     background-color: red;
     height: 60px;
-    width: 1440px;
+    width: 100%;
     color: white;
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
     padding-left: 20px;
-
+    padding-top: 30px;
 }
