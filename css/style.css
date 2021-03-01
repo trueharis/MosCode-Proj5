@@ -1,29 +1,32 @@
 .header {
     background-color: red;
     height: 60px;
-    width: 100%;
     color: white;
-    display: block;
     padding-top: 30px;
     padding-left: 20px;
+    display: ;
+    
 }
-
+.main {
+display: flex;
+justify-content: center;
+}
 .recept {
     display: inline-block;
-    margin: 52px 70px;
-    width: 334px;
+    margin: 50px;
     text-align: left;
-    
     border: 5px solid #E5E000;
     box-sizing: border-box;
     border-radius: 30px;
-    padding: 20px;
+    padding: 33px;
+    width: 400px;
+    height: 800px;
+    font-size: 20px
 }
 
 .footer {
     background-color: red;
     height: 60px;
-    width: 100%;
     color: white;
     display: block;
     padding-left: 20px;
