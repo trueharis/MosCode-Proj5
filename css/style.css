@@ -4,8 +4,7 @@
     color: white;
     padding-top: 30px;
     padding-left: 20px;
-    display: ;
-    
+    display: flex
 }
 .main {
 display: flex;
@@ -25,9 +24,7 @@ justify-content: center;
 }
 
 .recept2 {
-    display: inline-block;
     margin: 50px;
-    text-align: left;
     border: 5px solid #E5E000;
     box-sizing: border-box;
     border-radius: 30px;
