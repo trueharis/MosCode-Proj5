@@ -1,43 +1,119 @@
-.header {
-    background-color: red;
-    height: 60px;
-    color: white;
-    padding-top: 30px;
-    padding-left: 20px;
-    display: flex
-}
-.main {
-display: flex;
-justify-content: center;
-}
-.recept {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: inline-block;
-    text-align: left;
-    border: 5px solid #E5E000;
-    box-sizing: border-box;
-    border-radius: 30px;
-    padding: 33px;
-    width: 400px;
-    font-size: 20px
+
+
+a{
+    padding: 50px 25px
 }
 
-.recept2 {
-    margin: 50px;
-    border: 5px solid #E5E000;
-    box-sizing: border-box;
-    border-radius: 30px;
-    padding: 33px;
-    width: 400px;
-    font-size: 20px
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(229, 0, 67, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.logo {
+    padding: 50px;
+}
+.menu {
+   padding-top: 50px;
+}
+
+.section1 {
+    display: flex;
+    height: 950px;
+    background-image: url(../img/bg.svg);
+}
+
+.centraltext {
+    margin: auto;
+    color:  rgba(229, 0, 67, 1);
+    font-size: 100px;
+    font-family: Arial;
+}
+
+.section2 {
+    height: 500px;
+    display: flex;
+}
+
+.centraltext2 {
+    margin: auto;
+    font-size: 25px;
+    height: 280px;
+    width: 1040px;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    padding: 24px;
+    vertical-align: auto;
+}
+
+.bottles {
+    display: flex;
+    justify-content: center;
+}
+
+
+.bottle_image1 {
+    background-image: url(../img/bottle1.svg);
+    height: 863px;
+    width: 281px;
+    margin: 50px 100px;
+}
+
+.bottle_image2 {
+    background-image: url(../img/bottle2.svg);
+    height: 863px;
+    width: 281px;
+    margin: 50px 100px;
+}
+
+.bottle_image3 {
+    background-image: url(../img/bottle3.svg);
+    height: 863px;
+    width: 281px;
+    margin: 50px 100px;
+}
+.botdesctiption {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 110px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.centraltext3 {
+    display: flex;
+    margin: auto;
+    font-size: 25px;
+    height: 280px;
+    width: 1040px;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    padding: 24px;
+    vertical-align: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.image_inside {
+    margin: 10px 80px;
+    height: 220px;
+    width: 151px;
+    background-image: url(../img/bottleinside.svg);
 }
 
 .footer {
-    background-color: red;
-    height: 60px;
-    color: white;
-    display: block;
-    padding-left: 20px;
-    padding-top: 30px;
+
+    height: 125px;
+    background-color: #F8BFC7; 
+}
+
+.footer_text {
+    font-family: Arial;
+    text-align: left;
+    font-size: 25px;
+    padding: 50px 50px;
 }
